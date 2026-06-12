@@ -2,20 +2,21 @@
   "name": "Vorcinex Studio",
   "short_name": "Vorcinex",
   "description": "Premium Collaborative Team Dashboard",
-  "start_url": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#FFF6F6",
   "theme_color": "#D28D82",
   "orientation": "any",
   "icons": [
     {
-      "src": "static/logo/icon-512.png",
+      "src": "./static/logo/icon-512.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "static/logo/icon-512.png",
+      "src": "./static/logo/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
