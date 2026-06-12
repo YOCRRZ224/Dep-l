@@ -1,7 +1,5 @@
 const CACHE_NAME = "vorcinex-v1";
 const urlsToCache = [
-  "./",
-  "./index.html",
   "./manifest.json",
   "./static/logo/icon-512.png"
 ];
