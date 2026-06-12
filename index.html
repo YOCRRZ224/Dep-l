@@ -263,6 +263,10 @@ window.addEventListener("resize", () => {
 
 {% endraw %}
 </script>
-
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
 </body>
 </html>
